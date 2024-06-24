@@ -4,6 +4,11 @@
 
   # TODO: Move general mappings to which-key
   keymaps = [
+    {
+      key = "<C-n>";
+      action = "<CMD>NvimTreeToggle<CR>";
+      options.desc = "Toggle NvimTree";
+    }
     # Disable arrow keys
     {
       mode = ["n" "i"];
